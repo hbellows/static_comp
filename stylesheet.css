@@ -1,6 +1,7 @@
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: small;
+  display: block;
 }
 
 body {
@@ -15,7 +16,7 @@ ul {
   padding: 0;
   background-color: #fff;
   width: 100%;
-  text-align: justify;
+  text-align: center;
   float: center;
   display: flex;
 }
@@ -24,12 +25,23 @@ li {
   font-family: arial,sans-serif;
 }
 
-.top-nav {
-  position: absolute;
-  right: 0;
-  width: 100%;
+.main-body {
+  display: block;
+  text-align: center;
+  padding-top: 10%;
 }
 
-.main-body {
-  
+.top-nav {
+  position: absolute;
+  width: 90%;
+  padding-top: 1%
+}
+
+
+#logo {
+  width: 65%;
+  height: 65%;
+  align: center;
+  justify-content: center;
+  padding-left: 10%;
 }
