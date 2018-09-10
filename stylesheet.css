@@ -1,0 +1,35 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: small;
+}
+
+body {
+  background: #fff
+  height: 100%;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  width: 100%;
+  text-align: justify;
+  float: center;
+  display: flex;
+}
+
+li {
+  font-family: arial,sans-serif;
+}
+
+.top-nav {
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+.main-body {
+  
+}
